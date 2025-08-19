@@ -79,6 +79,9 @@ function CreateTrip() {
       toast("Please fill all details.");
       return;
     }
+    else{
+      toast("Generating trip please wait!")
+    }
 
     // Check if noOfDays is a valid number
     const numberOfDays = Number(noOfDays);
